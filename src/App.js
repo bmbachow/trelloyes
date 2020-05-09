@@ -1,9 +1,12 @@
 import React from 'react';
+import List from '//List/List.js'
+import Card from '//Card/Card.js'
 
-function App() {
+
+function App(props) {
   return (
     <main className='App'>
-      {/* content goes here */}
+      <List props={props}/>
     </main>
   );
 }
